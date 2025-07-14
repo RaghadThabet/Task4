@@ -1,0 +1,1221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <title>Document</title>
+<style>
+  .sale-badge {
+    position: relative;
+    display: inline-block;
+    color: rgb(10, 10, 10);
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    width: 50px; /* adjust to star size */
+    height: 50px; /* adjust to star size */
+    line-height: 50px; /* center text vertically */
+  }
+  .sale-badge img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px; /* match container */
+    height: 50px;
+    z-index: 0;
+  }
+  .sale-badge span {
+    position: relative;
+    z-index: 1;
+    display: block;
+  }
+</style>
+
+</head>
+<body>
+<header>
+    <div>
+ <a href=""><i class="fas fa-search"></i></a>
+<a><i class="far fa-heart"></i> </a>
+<a><i class="fas fa-shopping-cart"></i></a>
+
+<li class="nav-item filte-link">
+	<a href="javascript:void(0);" class="nav-link filte-btn" data-bs-toggle="offcanvas" data-bs-target="#offcanvasLeft" aria-controls="offcanvasLeft">
+   <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 13" fill="none">
+	<rect y="11" width="30" height="2" fill="black"></rect>
+		<rect width="30" height="2" fill="black"></rect>
+		</svg>
+	</a>
+</li>
+
+</div>
+    <div>
+    <div>
+        <div>
+
+            <!-- Website Logo -->
+            <div>
+                <a href="index.html"><img src="./photo/logo.png" alt="logo"></a>
+            </div>
+
+            <!-- Nav Toggle Button -->
+            <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- Main Nav -->
+            <div id="navbarNavDropdown">
+                <div>
+                    <a href="index.html"><img src="images/logo.svg" alt=""></a>
+                </div>
+                <ul>
+                    <li>
+                        <a href=""><span>Home</span><i></i></a>
+                        <div>
+                            <ul>
+                                <li>
+                                    <a href="index.html">
+                                        <img src="./photo/demo-1.png" alt="/">
+                                        <span>01 Home Page</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="index-2.html">
+                                        <img src="./photo/demo-2.png" alt="/">
+                                        <span>02 Home Page</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="index-3.html">
+                                        <img src="./photo/demo-3.png" alt="/">
+                                        <span>03 Home Page</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href=""><span>Shop</span><i></i></a>
+                        <div>
+                            <ul>
+                                <li>
+                                    <ul>
+                                        <li><a href="">Shop Structure</a>
+                                            <ul>
+                                                <li><a href="shop-standard.html">Shop Standard</a></li>
+                                                <li><a href="shop-list.html">Shop List</a></li>
+                                                <li><a href="shop-with-category.html">Shop With Category</a></li>
+                                                <li><a href="shop-filters-top-bar.html">Shop Filters Top Bar</a></li>
+                                                <li><a href="shop-sidebar.html">Shop Sidebar</a></li>
+                                                <li><a href="shop-style-1.html">Shop Style 1</a></li>
+                                                <li><a href="shop-style-2.html">Shop Style 2</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="">Product Structure</a>
+                                            <ul>
+                                                <li><a href="">Default</a></li>
+                                                <li><a href="">Thumbnail</a></li>
+                                                <li><a href="">Grid Media</a></li>
+                                                <li><a href="">Carousel</a></li>
+                                                <li><a href="">Full Width</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="">Shop Pages</a>
+                                            <ul>
+                                                <li><a href="shop-wishlist.html">Wishlist</a></li>
+                                                <li><a href="shop-cart.html">Cart</a></li>
+                                                <li><a href="shop-checkout.html">Checkout</a></li>
+                                                <li><a href="shop-compare.html">Compare</a></li>
+                                                <li><a href="shop-order-tracking.html">Order Tracking</a></li>
+                                                <li><a href="login.html">Login</a></li>
+                                                <li><a href="registration.html">Registration</a></li>
+                                                <li><a href="forget-password.html">Forget Password</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <h3>Deal of the month</h3>
+                                                <p>Yes! Send me exclusive offers, personalised, and unique gift ideas, tips for shopping on Pixio <a href="shop-standard.html">View All Products</a></p>
+                                            </div>
+                                            <div>
+                                                <div>
+                                                    <div>
+                                                        <span>31</span>
+                                                        <span>Days</span>
+                                                    </div>
+                                                    <div>
+                                                        <span>05</span>
+                                                        <span>Hours</span>
+                                                    </div>
+                                                    <div>
+                                                        <span>50</span>
+                                                        <span>Minutess</span>
+                                                    </div>
+                                                    <div>
+                                                        <span>21</span>
+                                                        <span>Second</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <div>
+                                        <img src="photo/adv-1.png" alt="/">
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <!-- The rest of the menu structure (Blog, Post Layout, Portfolio, Pages, My Account, etc.) would follow the same pattern... -->
+    <li>
+        <a href="">Blog</a>
+        <ul>
+            <li><a href="blog-dark-2-column.html">Blog 2 Column</a></li>
+            <li><a href="blog-dark-2-column-sidebar.html">Blog 2 Column Sidebar</a></li>
+            <li><a href="blog-dark-3-column.html">Blog 3 Column</a></li>
+            <li><a href="blog-dark-half-image.html">Blog Half Image</a></li>
+            <li><a href="blog-light-2-column.html">Blog 2 Column</a></li>
+            <li><a href="blog-light-2-column-sidebar.html">Blog 2 Column Sidebar</a></li>
+            <li><a href="blog-light-half-image.html">Blog Half Image</a></li>
+            <li><a href="blog-exclusive.html">Blog Exclusive</a></li>
+            <li><a href="blog-list-no-sidebar.html">Blog List No Sidebar</a></li>
+            <li><a href="blog-list-left-sidebar.html">Blog List Left Sidebar</a></li>
+            <li><a href="blog-list-right-sidebar.html">Blog List Right Sidebar</a></li>
+            <li><a href="blog-list-both-sidebar.html">Blog List Both Sidebar</a></li>
+            <li><a href="blog-grid-no-sidebar.html">Blog Grid No Sidebar</a></li>
+            <li><a href="blog-grid-left-sidebar.html">Blog Grid Left Sidebar</a></li>
+            <li><a href="blog-grid-right-sidebar.html">Blog Grid Right Sidebar</a></li>
+            <li><a href="blog-grid-both-sidebar.html">Blog Grid Both Sidebar</a></li>
+            <li><a href="blog-grid-wide-sidebar.html">Blog Grid Wide Sidebar</a></li>
+            <li><a href="blog-archive.html">Blog Archive</a></li>
+            <li><a href="blog-author.html">Author</a></li>
+            <li><a href="blog-category.html">Blog Category</a></li>
+            <li><a href="blog-tag.html">Blog Tag</a></li>
+        </ul>
+    </li>
+
+    <li>
+    <a href="javascript:void(0);">Recent Posts</a>
+    <div>
+        <ul>
+            <li>
+                <div>
+                    <img src="./photo/1.png" alt="">
+                </div>
+                <div>
+                    <h6><a href="post-standard.html">Cozy Knit Cardigan Sweater</a></h6>
+                    <span>July 23, 2024</span>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="./photo/2.png" alt="">
+                </div>
+                <div>
+                    <h6><a href="post-standard.html">Sophisticated Swagger Suit</a></h6>
+                    <span>July 23, 2024</span>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="./photo/3.png" alt="">
+                </div>
+                <div>
+                    <h6><a href="post-standard.html">Athletic Mesh Sports Leggings</a></h6>
+                    <span>July 23, 2024</span>
+                </div>
+            </li>
+            <li>
+                <div>
+                <img src="./photo/4.png" alt="">
+                </div>
+                <div>
+                    <h6><a href="post-standard.html">Satin Wrap Party Blouse</a></h6>
+                    <span>July 23, 2024</span>
+                </div>
+            </li>
+<br><br>
+
+    <li>
+        <a href="">Post Layout</a>
+        <ul>
+            <li><a href="post-text.html">Text Post</a></li>
+            <li><a href="post-image.html">Image Post</a></li>
+            <li><a href="post-video.html">Video Post</a></li>
+            <li><a href="post-link.html">Link Post</a></li>
+            <li><a href="post-audio.html">Audio Post</a></li>
+            <li><a href="post-quote.html">Quote Post</a></li>
+            <li><a href="post-tutorial.html">Tutorial Post</a></li>
+            <li><a href="post-cateloge.html">Catalogue Post</a></li>
+            <li><a href="post-banner.html">Banner Post</a></li>
+            <li><a href="post-slide-show.html">Slider Post</a></li>
+            <li><a href="post-gallery.html">Gallery Post</a></li>
+            <li><a href="post-status.html">Status Slider</a></li>
+            <li><a href="post-standard.html">Standard Post</a></li>
+            <li><a href="post-corner.html">Corner Post</a></li>
+            <li><a href="post-side.html">Side Post</a></li>
+            <li><a href="post-left-sidebar.html">Left Sidebar</a></li>
+            <li><a href="post-right-sidebar.html">Right Sidebar</a></li>
+            <li><a href="post-both-sidebar.html">Both Sidebar</a></li>
+            <li><a href="post-no-sidebar.html">No Sidebar</a></li>
+        </ul>
+    </li>
+<br><br>
+
+
+
+
+
+
+
+
+<li class="has-mega-menu sub-menu-down">
+								<a href=""><span>Portfolio</span></a>
+								<div>
+									
+										<li>
+											<ul >
+												<li>
+													<a href="portfolio-tiles.html">
+														<img src="./photo/portfolio-tiles.svg" alt="/">
+														<span>Portfolio Tiles</span>
+													</a>
+												</li>
+												<li>
+													<a href="collage-style-1.html">
+														<img src="photo/collage-style-1.svg" alt="/">
+														<span>Collage Style 1</span>
+													</a>
+												</li>
+												<li>
+													<a href="collage-style-2.html">
+														<img src="./photo/collage-style-2.svg" alt="/">
+														<span>Collage Style 2</span>
+													</a>
+												</li>
+												<li>
+													<a href="masonry-grid.html">
+														<img src="./photo/masonry-grid.svg" alt="/">
+														<span>Masonry Grid</span>
+													</a>
+												</li>
+												<li>
+													<a href="cobble-style-1.html">
+														<img src="./photo/cobble-style-1.svg" alt="/">
+														<span>Cobble Style 1</span>
+													</a>
+												</li>
+												<li>
+													<a href="cobble-style-2.html">
+														<img src="./photo/cobble-style-1.svg" alt="/">
+														<span>Cobble Style 2</span>
+													</a>
+												</li>
+												<li>
+													<a href="portfolio-thumbs-slider.html">
+														<img src="./photo/portfolio-thumbs-slider.svg" alt="/">
+														<span>Portfolio Thumbs Slider</span>
+													</a>
+												</li>
+												<li>
+													<a href="portfolio-film-strip.html">
+														<img src="./photo/portfolio-film-strip.svg" alt="/">
+														<span>Portfolio Film Strip</span>
+													</a>
+												</li>
+												<li>
+													<a href="carousel-showcase.html">
+														<img src="./photo/carousel-showcase.svg" alt="/">
+														<span>Carousel Showcase</span>
+													</a>
+												</li>
+												<li>
+													<a href="portfolio-split-slider.html">
+														<img src="./photo/portfolio-split-slider.svg" alt="/">
+														<span>Portfolio Split Slider</span>
+													</a>
+												</li>
+											</ul>
+										</li>
+										<li >
+											<a >Portfolio Details</a>
+											<ul>
+												<li><a href="portfolio-details-1.html">Portfolio Details 1</a></li>
+												<li><a href="portfolio-details-2.html">Portfolio Details 2</a></li>
+												<li><a href="portfolio-details-3.html">Portfolio Details 3</a></li>
+												<li><a href="portfolio-details-4.html">Portfolio Details 4</a></li>
+												<li><a href="portfolio-details-5.html">Portfolio Details 5</a></li>
+											</ul>
+										</li>
+									</ul>
+								</div>
+							</li>
+
+    
+    </div>
+</li>
+
+
+
+
+    <li>
+        <a href="">Pages</a>
+        <ul>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="about-me.html">About Me</a></li>
+            <li><a href="pricing-table.html">Pricing Table</a></li>
+            <li><a href="our-gift-vouchers.html">Our Gift Vouchers</a></li>
+            <li><a href="what-we-do.html">What We Do</a></li>
+            <li><a href="faqs-1.html">FAQs 1</a></li>
+            <li><a href="faqs-2.html">FAQs 2</a></li>
+            <li><a href="our-team.html">Our Team</a></li>
+            <li><a href="contact-us-1.html">Contact Us 1</a></li>
+            <li><a href="contact-us-2.html">Contact Us 2</a></li>
+            <li><a href="contact-us-3.html">Contact Us 3</a></li>
+            <li><a href="error-1.html">Error 404 - 1</a></li>
+            <li><a href="error-2.html">Error 404 - 2</a></li>
+            <li><a href="coming-soon.html">Coming Soon</a></li>
+            <li><a href="under-construction.html">Under Construction</a></li>
+            <li><a href="banner-with-bg-color.html">Banner with BG Color</a></li>
+            <li><a href="banner-with-image.html">Banner with Image</a></li>
+            <li><a href="banner-with-video.html">Banner with Video</a></li>
+            <li><a href="banner-with-kanbern.html">Banner with Kanbern</a></li>
+            <li><a href="banner-small.html">Banner Small</a></li>
+            <li><a href="banner-medium.html">Banner Medium</a></li>
+            <li><a href="banner-large.html">Banner Large</a></li>
+            <li><a href="header-style-1.html">Header Style 1</a></li>
+            <li><a href="header-style-2.html">Header Style 2</a></li>
+            <li><a href="header-style-3.html">Header Style 3</a></li>
+            <li><a href="header-style-4.html">Header Style 4</a></li>
+            <li><a href="header-style-5.html">Header Style 5</a></li>
+            <li><a href="header-style-6.html">Header Style 6</a></li>
+            <li><a href="header-style-7.html">Header Style 7</a></li>
+            <li><a href="w3menu.html">Menu Styles</a></li>
+            <li><a href="footer-style-1.html">Footer Style 1</a></li>
+            <li><a href="footer-style-2.html">Footer Style 2</a></li>
+            <li><a href="footer-style-3.html">Footer Style 3</a></li>
+            <li><a href="footer-style-4.html">Footer Style 4</a></li>
+            <li><a href="footer-style-5.html">Footer Style 5</a></li>
+            <li><a href="footer-style-6.html">Footer Style 6</a></li>
+            <li><a href="footer-style-6.html">Footer Style 6</a></li>
+            <li><a href="footer-style-7.html">Footer Style 7</a></li>
+        </ul>
+
+        <li>
+	<a href="">Dashboard</a>
+	<ul>
+		<li><a href="account-dashboard.html">Dashboard</a></li>
+		<li><a href="account-orders.html">Orders</a></li>
+		<li><a href="account-order-details.html">Orders Details</a></li>
+		<li><a href="account-order-confirmation.html">Orders Confirmation</a></li>
+		<li><a href="account-downloads.html">Downloads</a></li>
+		<li><a href="account-return-request.html">Return Request</a></li>
+		<li><a href="account-return-request-detail.html">Return Request Detail</a></li>
+		<li><a href="account-refund-requests-confirmed.html">Return Request Confirmed</a></li>
+	</ul>
+   </li>
+
+    </li>
+    
+    <li>
+        <a href="javascript:void(0);">My Account</a>
+        <ul>
+            <li><a href="account-dashboard.html">Dashboard</a></li>
+            <li><a href="account-orders.html">Orders</a></li>
+            <li><a href="account-order-details.html">Order Details</a></li>
+            <li><a href="account-order-confirmation.html">Order Confirmation</a></li>
+            <li><a href="account-downloads.html">Downloads</a></li>
+            <li><a href="account-return-request.html">Return Request</a></li>
+            <li><a href="account-return-request-detail.html">Return Request Detail</a></li>
+            <li><a href="account-refund-requests-confirmed.html">Refund Requests Confirmed</a></li>
+            <li><a href="account-profile.html">Profile</a></li>
+            <li><a href="account-address.html">Address</a></li>
+            <li><a href="account-shipping-methods.html">Shipping Methods</a></li>
+            <li><a href="account-payment-methods.html">Payment Methods</a></li>
+            <li><a href="account-review.html">Review</a></li>
+            <li><a href="account-billing-address.html">Billing Address</a></li>
+            <li><a href="account-shipping-address.html">Shipping Address</a></li>
+            <li><a href="account-cancellation-requests.html">Cancellation Requests</a></li>
+        </ul>
+    </li>
+</ul> 
+
+
+
+
+ </header>
+
+
+
+
+
+
+ <div>
+  <div>
+    <h1>Vintage Denim Overalls Shorts.</h1>
+    <div>
+      <div>
+        <span>Price</span>
+        <br>
+        <span>$65.00</span>
+      </div>
+    </div>
+     <div>
+      <a href="#">ADD TO CART</a>
+      <a href="#">VIEW DETAIL</a>
+    </div>
+  </div>
+  </div>
+
+<div><img src="./photo/banner-media5.png" alt=""></div>
+<br>
+
+<div>
+<h1 >Beautiful Woman Purple Sweater.</h1>
+    <div>
+      <div>
+        <span>Price</span>
+        <br>
+        <span>$80.00</span>
+      </div>
+    </div>
+</div>
+
+
+   <div>
+      <a href="#">ADD TO CART</a>
+      <a href="#">VIEW DETAIL</a>
+    </div>
+      </div>
+  </div>
+
+
+
+<div><img src="./photo/banner-media.png" alt=""></div>
+<br>
+
+
+    <div >
+	<h1 >Shot Slad Curly Woman.</h1>
+	<div >
+	<div >
+			<span >Price</span>
+            <br>
+			<span >$30.00</span>								
+	</div>
+	</div>
+								
+   <div>
+      <a href="#">ADD TO CART</a>
+      <a href="#">VIEW DETAIL</a>
+    </div>
+      </div>
+    </div>
+ <div><img src="./photo/banner-media2.png" alt=""></div>
+
+<br>
+<div>
+  <h1>Athletic Mesh Sports Leggings.</h1>
+  <div>
+    <div>
+      <span>Price</span>
+      <span>$75.00</span>
+    </div>
+  </div>
+  <div>
+    <a href="shop-wishlist.html" tabindex="0">ADD TO CART</a>
+    <a href="product-default.html" tabindex="0">VIEW DETAIL </a>
+  </div>
+</div>
+ <div><img src="./photo/banner-media.png" alt=""></div>
+
+<br>
+<div>
+  <h1>Curly Girl Beautiful Dress.</h1>
+  <div>
+    <div>
+      <span>Price</span>
+      <span>$50.00</span>
+    </div>
+  </div>
+  <div>
+    <a href="shop-wishlist.html" tabindex="0">ADD TO CART</a>
+    <a href="product-default.html" tabindex="0">VIEW DETAIL </a>
+  </div>
+</div>
+
+ <div><img src="./photo/banner-media4.png" alt=""></div>
+
+<br>
+
+
+<div>
+    <a class="animation-btn popup-youtube" href="https://www.youtube.com/watch?v=YwYoyQ1JdpQ">
+					<div class="text-row word-rotate-box c-black">
+						<i class="fa-solid fa-play text-dark badge__emoji"></i>
+					<span class="text__char" style="--char-rotate :0deg"> </span><span class="text__char" style="--char-rotate :14.4deg">M</span><span class="text__char" style="--char-rotate :28.8deg">o</span><span class="text__char" style="--char-rotate :43.2deg">r</span><span class="text__char" style="--char-rotate :57.6deg">e</span><span class="text__char" style="--char-rotate :72deg"> </span><span class="text__char" style="--char-rotate :86.4deg">C</span><span class="text__char" style="--char-rotate :100.8deg">o</span><span class="text__char" style="--char-rotate :115.2deg">l</span><span class="text__char" style="--char-rotate :129.6deg">l</span><span class="text__char" style="--char-rotate :144deg">e</span><span class="text__char" style="--char-rotate :158.4deg">c</span><span class="text__char" style="--char-rotate :172.8deg">t</span><span class="text__char" style="--char-rotate :187.20000000000002deg">i</span><span class="text__char" style="--char-rotate :201.6deg">o</span><span class="text__char" style="--char-rotate :216deg">n</span><span class="text__char" style="--char-rotate :230.4deg"> </span><span class="text__char" style="--char-rotate :244.8deg">E</span><span class="text__char" style="--char-rotate :259.2deg">x</span><span class="text__char" style="--char-rotate :273.6deg">p</span><span class="text__char" style="--char-rotate :288deg">l</span><span class="text__char" style="--char-rotate :302.40000000000003deg">o</span><span class="text__char" style="--char-rotate :316.8deg">r</span><span class="text__char" style="--char-rotate :331.2deg">e</span><span class="text__char" style="--char-rotate :345.6deg"> </span></div>
+				</a>
+</div>
+<br>
+
+
+
+
+
+
+<div>
+    <svg xmlns="http://www.w3.org/2000/svg" width="76" height="76" viewBox="0 0 76 76" fill="none">
+						<path d="M52.6617 37.6496L58.7381 40.0325L75.0609 49.0874L66.6016 63.7422L49.9214 54.6872L45.1557 50.7554L46.1088 57.1892V75.18H28.952V57.1892L30.0243 50.5171L24.9011 54.6872L8.45924 63.7422L0 49.0874L16.3228 39.7942L22.3991 37.6496L16.3228 35.1475L0 26.2117L8.45924 11.557L25.1394 20.4928L30.0243 24.6629L28.952 18.3482V0H46.1088V18.3482L45.1557 24.4246L49.9214 20.4928L66.6016 11.557L75.0609 26.2117L58.7381 35.3858L52.6617 37.6496Z" fill="black"></path>
+					</svg>
+                    <div>
+						<span class="sub-title">Summer Collection</span>
+						<h4 class="title">Trendy and Classic  for the New Season</h4>
+					</div>
+
+</div>
+
+
+
+<section>
+    <div>
+    <div>
+    <img src="./photo/2 (1).png" alt="">
+    <a href="#">Shorts</a>
+</div>
+    <div>
+    <img src="./photo/t-Shirt.png" alt="">
+    <a href="#">t-Shirt</a>
+</div>
+    <div>
+    <img src="./photo/1 (1).png" alt="">
+    <a href="#">Shirt</a>
+</div>
+    <div>
+    <img src="./photo/t-Jeans.png" alt="">
+    <a href="#">t-Jeans</a>
+</div>
+
+    <div>
+    <img src="./photo/t-Jeans.png" alt="">
+    <a href="#">t-Jeans</a>
+</div>
+
+</div>
+
+<div>
+    <h1>Featured Categories</h1>
+    <p>Discover the most trending products in Pixio.</p>
+    <div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none" role="img" aria-label="Previous">
+    <path d="M32.2645 16.9503H4.08145L10.7508 10.4669C11.2604 9.97176 10.5046 9.1837 9.98813 9.68289C9.98815 9.68286 2.35193 17.1063 2.35193 17.1063C2.12911 17.3092 2.14686 17.6755 2.35196 17.8903C2.35193 17.8903 9.98815 25.3169 9.98815 25.3169C10.5021 25.81 11.2622 25.0367 10.7508 24.5328C10.7508 24.5329 4.07897 18.0441 4.07897 18.0441H32.2645C32.9634 18.0375 32.9994 16.9636 32.2645 16.9503Z" fill="black"/>
+  </svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none" role="img" aria-label="Next">
+    <path d="M2.73549 16.9503H30.9186L24.2492 10.4669C23.7396 9.97176 24.4954 9.1837 25.0119 9.68289L32.6481 17.1063C32.8709 17.3092 32.8531 17.6755 32.648 17.8903L25.0118 25.3169C24.4979 25.81 23.7378 25.0367 24.2492 24.5328L30.921 18.0441H2.73549C2.03663 18.0375 2.00064 16.9636 2.73549 16.9503Z" fill="black"/>
+  </svg>
+    </div>
+
+</div>
+
+</section>
+
+<section>
+  <div>
+    <div>
+      <div>
+        <div>
+          <img src="photo/women.png" alt="">
+        </div>
+        <a href="shop-list.html">Woman collection</a>
+      </div>
+      <div>
+        <div>
+          <div>
+            <h3>Set your wardrobe with our amazing selection!</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the</p>
+          </div>
+          <a href="#">
+            <span>
+              <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.832 31.1663L31.1654 12.833" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M12.832 12.833H31.1654V31.1663" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+            </span>
+          </a>
+          <div>
+            <div>
+              <div>
+                <div>
+                  <img src="./photo/child.png" alt="image">
+                </div>
+                <div>
+                  <a href="#">Child Fashion</a>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div>
+                <div>
+                  <img src="./photo/man.png" alt="image">
+                </div>
+                <div>
+                  <a href="#">Man collection</a>
+                </div>
+        <span class="sale-badge">
+  <img src="photo/star.png" alt="Star" />
+  <span>50%</span>
+</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div>
+    <div>
+      <div>
+        <div>
+          <h2>Most popular products</h2>
+        </div>
+      </div>
+      <div>
+        <ul>
+          <li>
+            <div>
+              <div>
+                <img src="photo/aa.png" alt="image" />
+                <div>
+                  <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <i></i>
+                    <span>Quick View</span>
+                  </a>
+                  <div>
+                    <i></i>
+                    <i></i>
+                  </div>
+                  <div>
+                    <i></i>
+                    <i></i>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <h5><a href="shop-list.html">Cozy Knit Cardigan Sweater</a></h5>
+                <h5>$80</h5>
+              </div>
+              <div>
+                <span>Get 20% Off</span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div>
+              <div>
+                <img src="./photo/bb.png" alt="image" />
+                <div>
+                  <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <i></i>
+                    <span>Quick View</span>
+                  </a>
+                  <div>
+                    <i></i>
+                    <i></i>
+                  </div>
+                  <div>
+                    <i></i>
+                    <i></i>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <h5><a href="shop-list.html">Sophisticated Swagger Suit</a></h5>
+                <h5>$80</h5>
+              </div>
+              <div>
+                <span>Get 20% Off</span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div>
+              <div>
+                <img src="./photo/cc.png" alt="image" />
+                <div>
+                  <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <i></i>
+                    <span>Quick View</span>
+                  </a>
+                  <div>
+                    <i></i>
+                    <i></i>
+                  </div>
+                  <div>
+                    <i></i>
+                    <i></i>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <h5><a href="shop-list.html">Classic Denim Skinny Jeans</a></h5>
+                <h5>$80</h5>
+              </div>
+              <div>
+                <span>Get 20% Off</span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div>
+              <div>
+                <img src="./photo/dd.png" alt="image" />
+                <div>
+                  <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <i></i>
+                    <span>Quick View</span>
+                  </a>
+                  <div>
+                    <i></i>
+                    <i></i>
+                  </div>
+                  <div>
+                    <i></i>
+                    <i></i>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <h5><a href="shop-list.html">Athletic Mesh Sports Leggings</a></h5>
+                <h5>$80</h5>
+              </div>
+              <div>
+                <span>Get 20% Off</span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div>
+              <div>
+                <img src="./photo/ee.png" alt="image" />
+                <div>
+                  <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <i></i>
+                    <span>Quick View</span>
+                  </a>
+                  <div>
+                    <i></i>
+                    <i></i>
+                  </div>
+                  <div>
+                    <i></i>
+                    <i></i>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <h5><a href="shop-list.html">Vintage Denim Overalls Shorts</a></h5>
+                <h5>$80</h5>
+              </div>
+              <div>
+                <span>Get 20% Off</span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div>
+              <div>
+                <img src="./photo/ff.png" alt="image" />
+                <div>
+                  <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <i></i>
+                    <span>Quick View</span>
+                  </a>
+                  <div>
+                    <i></i>
+                    <i></i>
+                  </div>
+                  <div>
+                    <i></i>
+                    <i></i>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <h5><a href="shop-list.html">Satin Wrap Party Blouse</a></h5>
+                <h5>$80</h5>
+              </div>
+              <div>
+                <span>Get 20% Off</span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div>
+              <div>
+                <img src="./photo/gg.png" alt="image" />
+                <div>
+                  <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <i></i>
+                    <span>Quick View</span>
+                  </a>
+                  <div>
+                    <i></i>
+                    <i></i>
+                  </div>
+                  <div>
+                    <i></i>
+                    <i></i>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <h5><a href="shop-list.html">Plaid Wool Winter Coat</a></h5>
+                <h5>$80</h5>
+              </div>
+              <div>
+                <span>Get 20% Off</span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div>
+              <div>
+                <img src="./photo/hh.png" alt="image" />
+                <div>
+                  <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <i></i>
+                    <span>Quick View</span>
+                  </a>
+                  <div>
+                    <i></i>
+                    <i></i>
+                  </div>
+                  <div>
+                    <i></i>
+                    <i></i>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <h5><a href="shop-list.html">Water-Resistant Windbreaker Jacket</a></h5>
+                <h5>$80</h5>
+              </div>
+              <div>
+                <span>Get 20% Off</span>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<br><br>
+
+<section>
+  <div style="display: flex;">
+    <!-- Block 1 -->
+    <div style="flex: 1;">
+      <div style="position: relative; height: 400px; background-image: url('photo/product1.png'); background-size: cover; background-position: center;">
+        <div style="position: absolute; top: 20px; left: 20px; color: rgb(8, 8, 8);">
+          <div>Sale Up to 50% Off</div>
+          <h2>Summer <span>2024</span></h2>
+          <a href="#" style="color: rgb(20, 20, 20); text-decoration: underline;">Shop Now</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Block 2 -->
+    <div style="flex: 1;">
+      <div style="position: relative; height: 400px; background-image: url('photo/product2.png'); background-size: cover; background-position: center;">
+        <div style="position: absolute; top: 20px; left: 20px; color: rgb(15, 15, 15);">
+          <div>Sale Up to 50% Off</div>
+          <h2>New Summer Collection</h2>
+          <a href="#" style="color: rgb(12, 12, 12); text-decoration: underline;">Shop Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<br><br>
+
+
+<section>
+	<div>
+		<div>
+			<div>
+				<div>
+					<div>
+						<img src="photo/pic3.jpg" alt="image">
+					</div>
+				</div>	
+				<div>
+					<div>
+						<div>
+							<div>
+								<div>
+									<div>
+										<h2>Users Who Viewed This Also Checked Out These Similar Profiles</h2>
+									</div>
+								</div>	
+							</div>
+						
+						</div>
+						<div>
+							<div>
+								<div>
+									<div>
+										<img src="photo/pic1.png" alt="image">
+									</div>
+									<div>
+										<div>
+											<span>up to 79% off</span>
+											<h6><a href="#">Cozy Knit Cardigan Sweater</a></h6>
+										</div>
+										<h6>
+											$80
+											<del>$95</del>
+										</h6>
+									</div>
+								</div>
+							</div>
+							<div>
+								<div>
+									<div>
+										<img src="photo/pic2.png" alt="image">
+									</div>
+									<div>
+										<div>
+											<span>up to 79% off</span>
+											<h6><a href="shop-list.html">Sophisticated Swagger Suit</a></h6>
+										</div>
+										<h6>
+											$80
+											<del>$95</del>
+										</h6>
+									</div>
+								</div>
+							</div>
+							<div>
+								<div>
+									<div>
+										<img src="photo/pic4.png" alt="image">
+									</div>
+									<div>
+										<div>
+											<span>up to 79% off</span>
+											<h6><a href="shop-list.html">Classic Denim Skinny Jeans</a></h6>
+										</div>
+										<h6>
+											$80
+											<del>$95</del>
+										</h6>
+									</div>
+								</div>
+							</div>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+  <!-- Footer Top -->
+  <div>
+    <div>
+      <div>
+        <div data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+          <div>
+            <div>
+              <a href="#"><img src="images/logo.svg" alt=""></a>
+            </div>
+            <ul>
+              <li>
+                <p><span>Address</span> : 451 Wall Street, UK, London</p>
+              </li>
+              <li>
+                <p><span>E-mail</span> : example@info.com</p>
+              </li>
+              <li>
+                <p><span>Phone</span> : (064) 332-1233</p>
+              </li>
+            </ul>
+            <div>
+              <h6>subscribe to our newsletter</h6>
+              <form action="" method="post">
+                <div></div>
+                <div>
+                  <div>
+                    <input name="dzEmail" required="required" type="email" placeholder="Your Email Address">
+                    <div>
+                      <button  value="Submit" type="submit">
+                        <i></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div >
+          <div>
+            <h5>Recent Posts</h5>
+            <ul>
+              <li>
+                <div>
+                  <img src="./photo/s1.png" alt="">
+                </div>
+                <div>
+                  <h6><a href="post-standard.html">Cozy Knit Cardigan Sweater</a></h6>
+                  <span>July 23, 2024</span>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <img src="./photo/s2.png" alt="">
+                </div>
+                <div>
+                  <h6><a href="post-standard.html">Sophisticated Swagger Suit</a></h6>
+                  <span>July 23, 2024</span>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <img src="./photo/s3.png" alt="">
+                </div>
+                <div>
+                  <h6><a href="#">Athletic Mesh Sports Leggings</a></h6>
+                  <span>July 23, 2024</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div >
+          <div>
+            <h5>Our Stores</h5>
+            <ul>
+              <li><a href="#">New York</a></li>
+              <li><a href="#">London SF</a></li>
+              <li><a href="#">Edinburgh</a></li>
+              <li><a href="#">Los Angeles</a></li>
+              <li><a href="#">Chicago</a></li>
+              <li><a href="#">Las Vegas</a></li>
+            </ul>
+          </div>
+        </div>
+        <div >
+          <div>
+            <h5>Useful Links</h5>
+            <ul>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Returns</a></li>
+              <li><a href="#">Terms &amp; Conditions</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Latest News</a></li>
+              <li><a href="#">Our Sitemap</a></li>
+            </ul>
+          </div>
+        </div>
+        <div >
+          <div>
+            <h5>Footer Menu</h5>
+            <ul>
+              <li><a href="#">Instagram profile</a></li>
+              <li><a href="#">New Collection</a></li>
+              <li><a href="#">Woman Dress</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Latest News</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer Top End -->
+<hr>
+  <!-- Footer Bottom -->
+  <div>
+    <div>
+      <div >
+        <div>
+          <p>© <span>2025</span> <a href="https://www.dexignzone.com/">DexignZone</a> Theme. All Rights Reserved.</p>
+        </div>
+        <div>
+          <div>
+            <span>We Accept: </span>
+            <img src="photo/footer-img.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer Bottom End -->
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
